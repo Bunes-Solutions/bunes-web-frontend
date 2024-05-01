@@ -2,7 +2,7 @@ import { EmptyProjectList } from '@/components/empty-project-list'
 import { Header } from '@/components/header'
 import { PopulatedProjectList } from '@/components/populated-project-list'
 
-const projects = []
+const projects = [{}]
 
 export default function Home() {
   return (
